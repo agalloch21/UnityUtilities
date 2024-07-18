@@ -1,0 +1,24 @@
+{
+  "name": "com.xiaobo.unity-toolkit",
+  "displayName": "Xiaobo - Unity Toolkit",
+  "version": "0.0.0",
+  "description": "Unity toolkit including common tools",
+  "keywords": [
+    "unity",
+	"unity3d",
+	"upm",
+    "xiaobo",
+    "utility",
+    "vvvv",
+    "damper"
+  ],
+  "homepage": "https://github.com/agalloch21/unity-toolkit",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:agalloch21/unity-toolkit.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
