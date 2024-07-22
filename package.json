@@ -1,12 +1,12 @@
 {
-  "name": "com.xiaobo.unity-toolkit",
-  "displayName": "Xiaobo - Unity Toolkit",
+  "name": "com.xiaobo.xiaobo.unity.toolkit",
+  "displayName": "Xiaobo.UnityToolkit",
   "version": "0.0.0",
   "description": "Unity toolkit including common tools",
   "keywords": [
     "unity",
-	"unity3d",
-	"upm",
+    "unity3d",
+    "upm",
     "xiaobo",
     "utility",
     "vvvv",

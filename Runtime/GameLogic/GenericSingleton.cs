@@ -12,7 +12,7 @@ namespace Xiaobo.UnityToolkit.GameLogic
             {
                 if (_Instance == null)
                 {
-                    _Instance = GameObject.FindObjectOfType<T>();
+                    _Instance = GameObject.FindAnyObjectByType<T>();
                     if (_Instance == null)
                     {
                         GameObject go = new GameObject();
