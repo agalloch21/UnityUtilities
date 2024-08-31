@@ -2545,7 +2545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5035090106195543451}
-  - component: {fileID: 6393515409697483237}
+  - component: {fileID: 1770068823597369243}
   m_Layer: 0
   m_Name: HelperModule
   m_TagString: Untagged
@@ -2570,7 +2570,7 @@ Transform:
   - {fileID: 660119598912223047}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6393515409697483237
+--- !u!114 &1770068823597369243
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2579,19 +2579,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5722406233137936542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cdfb1b9518b3465bb1327f6534d6e0e, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a8ab71a0e4f24849b151eba39beb906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isVisible: 0
   rootInfo: {fileID: 3809820489941444338}
-  prefabInfo: {fileID: 8208002816722975583, guid: 1aeb46b96e6c84240be26cf082b221d2,
-    type: 3}
+  prefabInfo: {fileID: 8208002816722975583, guid: ea53cb2de4ffe420d8fe045968f80a9d, type: 3}
   rootSlider: {fileID: 7031992517703717519}
-  prefabSlider: {fileID: 6116592561778318614, guid: ef0f5b974ba8e4bb1b5645218147d31a,
-    type: 3}
+  prefabSlider: {fileID: 6116592561778318614, guid: f329db83718924f54b82cc18f0ba72ca, type: 3}
   rootSpaceInfo: {fileID: 6573781306088915691}
-  prefabSpaceInfo: {fileID: 8342374433772765540, guid: 5558b01f3a697491991f5dbea99464ae,
-    type: 3}
+  prefabSpaceInfo: {fileID: 8342374433772765540, guid: 05ccb9bf69c1e40869473e0b7869f446, type: 3}
   buttonTogglePanel: {fileID: 3481481045233994543}
   transTabs: {fileID: 5033265825654751545}
   transInfoPanel: {fileID: 3799518963953829194}
