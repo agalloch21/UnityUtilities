@@ -116,7 +116,7 @@ namespace Xiaobo.UnityToolkit.Helper
             }
         }
 
-        public void SetSlider(string name, Action<float> action)
+        public void SetSlider(string name, Action<float> action, float default_value = 0, float min = 0, float max = 1)
         {
             if (enabled == false) return;
 
@@ -132,6 +132,11 @@ namespace Xiaobo.UnityToolkit.Helper
 
             TextMeshProUGUI value_text = GetUITextComponent(go);
             Slider slider = GetSliderComponent(go);
+            slider.minValue = min;
+            slider.maxValue = max;
+            slider.value = Mathf.Clamp(default_value, min, max);
+            value_text.text = slider.value.ToString("0.00");
+
             slider.onValueChanged.AddListener((float v) =>
             {
                 value_text.text = v.ToString("0.00");
